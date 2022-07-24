@@ -1,0 +1,63 @@
+.header-container{
+	text-align: center;
+}
+
+.score-table{
+	display: flex;
+	justify-content: space-between;
+}
+.score{
+	margin-right: 2%;
+	box-sizing: border-box;
+}
+
+.player-money-element{
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+
+.money{
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+}
+
+h3{
+	margin: 0;
+}
+#player-money{
+	font-size: 20px;
+}
+
+.btns{
+	margin-top: 20px;
+	box-sizing: border-box;
+	display: block;
+	justify-content: center;
+}
+.new-game-btn{
+	display: flex;
+	justify-content: center;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+}
+.deal{
+	display: flex;
+	align-items: center;
+}
+
+#deal-amount{
+	box-sizing: border-box;
+	text-align: center;
+	height: 41px;
+	width: 30%; 
+	border-radius: 10px;
+	font-size: 18px;
+	padding: 0;
+}
